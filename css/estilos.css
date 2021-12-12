@@ -35,9 +35,9 @@ body{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	gap: 5rem;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+	padding-top: 1rem;
+	gap:2rem;
+	padding-bottom: 1rem;
 	font-size: 20px;
 }
 .prueba a {
@@ -59,6 +59,7 @@ body{
 .bordesImg { 
     max-width: 25%;
 }
+
 .paletas{
 	width: 15rem;
 	height:15rem;
@@ -78,11 +79,30 @@ body{
 }
 .grid {
 	display: grid;
+	text-align: center;
 	justify-content: center;
+	gap:10rem ;
 	grid-template-columns: repeat(3,1fr);
-	gap:10rem;
 	margin:3rem;
+
 }
+@media(max-width:768px){
+	.grid{
+		display: grid;
+		justify-content: center;
+		grid-template-columns: repeat(1,1fr);
+		gap:2rem;
+
+	}
+	.prueba{
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+	}
+}
+
+
+
+	
 .ImagenFondo{
 	background-image: url(../assets/imagenes/ladrillo.jpg);
 	background-repeat: no-repeat;
@@ -97,6 +117,7 @@ body{
 }
 .pad{
 	margin:2rem;
+
 }
 .uno,.dos,.tres,.cuatro,.cinco{
 	transition: all 200ms ease-in-out;
@@ -114,4 +135,13 @@ body{
 }
 .form{
 	padding: 	3rem;
+}
+.caru{
+	padding:5rem;
+}
+.grid-paletas{
+	display: grid;
+	justify-content: center;
+	grid-template-columns: repeat(3,1fr);
+	gap: 5rem;
 }
