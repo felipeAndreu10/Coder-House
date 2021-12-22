@@ -1,147 +1,160 @@
 html {
-	background-color: #0003;
-	box-sizing: border-box;
+  background-color: #0003;
+  box-sizing: border-box;
 }
-header{
-	background-image: url(../assets/imagenes/fondo.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-bottom: 8rem;
 
+header {
+  background-image: url(../assets/imagenes/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 8rem;
 }
-div p{
-	text-align: center;
+
+div p {
+  text-align: center;
 }
 
 li {
-   display: inline-block;
-   width: 15%;
-   font-size: 2rem;
-   justify-content: center;
-   text-align: center;
-   position: center;
-
+  display: inline-block;
+  width: 15%;
+  font-size: 2rem;
+  justify-content: center;
+  text-align: center;
+  position: center;
 }
 
-body{
-	font-size: 30px
-}
-.ulista{
-	background-color: darkgrey;
-
+body {
+  font-size: 30px;
 }
 
-.prueba{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	padding-top: 1rem;
-	gap:2rem;
-	padding-bottom: 1rem;
-	font-size: 20px;
+.ulista {
+  background-color: darkgrey;
 }
+
+.prueba {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 1rem;
+  gap: 2rem;
+  padding-bottom: 1rem;
+  font-size: 20px;
+}
+
 .prueba a {
-	display: block;
-	text-align: center;
-	color: black;
-	text-decoration: none;
-}
-.prueba a:hover{
-	background-color: white;
-	color:pink;
-
-}
-.desc-foto{
-	width: 50rem;
-	padding-left: 15rem;
-	text-align: center;
-}
-.bordesImg { 
-    max-width: 25%;
+  display: block;
+  text-align: center;
+  color: black;
+  text-decoration: none;
 }
 
-.paletas{
-	width: 15rem;
-	height:15rem;
+.prueba a:hover {
+  background-color: white;
+  color: pink;
+}
 
+.desc-foto {
+  width: 50rem;
+  padding-left: 15rem;
+  text-align: center;
 }
-.mapa{
-	width:100%;
+
+.bordesImg {
+  max-width: 25%;
 }
-.ubi{
-	text-align: center;
-	font-style: italic;
-	font-weight: bold;
+
+.paletas {
+  width: 15rem;
+  height: 15rem;
 }
-.central{
-	
-	text-align: center;
+
+.mapa {
+  width: 100%;
 }
+
+.ubi {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.central {
+  text-align: center;
+}
+
 .grid {
-	display: grid;
-	text-align: center;
-	justify-content: center;
-	gap:10rem ;
-	grid-template-columns: repeat(3,1fr);
-	margin:3rem;
-
-}
-@media(max-width:768px){
-	.grid{
-		display: grid;
-		justify-content: center;
-		grid-template-columns: repeat(1,1fr);
-		gap:2rem;
-
-	}
-	.prueba{
-		display: grid;
-		grid-template-columns: repeat(1,1fr);
-	}
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  gap: 10rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 3rem;
 }
 
+@media (max-width: 768px) {
+  .grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+  .prueba {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid-paletas {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
 
+.ImagenFondo {
+  background-image: url(../assets/imagenes/ladrillo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /*position: fixed;*/
+}
 
-	
-.ImagenFondo{
-	background-image: url(../assets/imagenes/ladrillo.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	/*position: fixed;*/
+#Ingeniero {
+  font-weight: bold;
+  font-style: italic;
+  background-color: #0003;
 }
-#Ingeniero{
-	font-weight: bold;
-	font-style: italic;
-	background-color: #0003;
-}
-.pad{
-	margin:2rem;
 
+.pad {
+  margin: 2rem;
 }
-.uno,.dos,.tres,.cuatro,.cinco{
-	transition: all 200ms ease-in-out;
-}
-.scale:hover{
-	transform:scale(1.1);
-}
-.pelota{
-	text-align: center;	
-	top: 	0;
-	animation-name: sube;
-	animation-iteration-count: 4;
-	animation-timing-function: ease-in-out;
 
+.uno, .dos, .tres, .cuatro, .cinco {
+  transition: all 200ms ease-in-out;
 }
-.form{
-	padding: 	3rem;
+
+.scale:hover {
+  transform: scale(1.1);
 }
-.caru{
-	padding:5rem;
+
+.pelota {
+  text-align: center;
+  top: 0;
+  animation-name: sube;
+  animation-iteration-count: 4;
+  animation-timing-function: ease-in-out;
 }
-.grid-paletas{
-	display: grid;
-	justify-content: center;
-	grid-template-columns: repeat(3,1fr);
-	gap: 5rem;
+
+.form {
+  padding: 3rem;
+}
+
+.caru {
+  padding: 5rem;
+}
+
+.grid-paletas {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
 }
