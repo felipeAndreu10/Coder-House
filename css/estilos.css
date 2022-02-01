@@ -1,8 +1,10 @@
+/* line 1, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 html {
   background-color: #0003;
   box-sizing: border-box;
 }
 
+/* line 5, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 header {
   background-image: url(../assets/imagenes/fondo.jpg);
   background-repeat: no-repeat;
@@ -10,10 +12,12 @@ header {
   padding-bottom: 8rem;
 }
 
+/* line 12, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 article p {
   text-align: center;
 }
 
+/* line 17, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 li {
   display: inline-block;
   width: 15%;
@@ -23,14 +27,17 @@ li {
   position: center;
 }
 
+/* line 27, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 body {
   font-size: 30px;
 }
 
+/* line 30, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .ulista {
   background-color: darkgrey;
 }
 
+/* line 34, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .prueba {
   display: flex;
   flex-direction: row;
@@ -41,6 +48,7 @@ body {
   font-size: 20px;
 }
 
+/* line 42, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .prueba a {
   display: block;
   text-align: center;
@@ -48,40 +56,50 @@ body {
   text-decoration: none;
 }
 
+/* line 47, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .prueba a:hover {
   background-color: white;
   color: pink;
 }
 
+/* line 54, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .desc-foto {
   width: 50rem;
   padding-left: 15rem;
   text-align: center;
 }
 
+/* line 59, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .bordesImg {
   max-width: 25%;
 }
 
+/* line 63, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .paletas {
   width: 15rem;
   height: 15rem;
+  margin: 2rem;
+  padding: 1rem;
 }
 
+/* line 70, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .mapa {
   width: 100%;
 }
 
+/* line 73, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .ubi {
   text-align: center;
   font-style: italic;
   font-weight: bold;
 }
 
+/* line 78, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .central {
   text-align: center;
 }
 
+/* line 82, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .grid {
   display: grid;
   text-align: center;
@@ -92,6 +110,7 @@ body {
 }
 
 @media (max-width: 768px) {
+  /* line 92, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
   .grid {
     display: grid;
     justify-content: center;
@@ -99,12 +118,24 @@ body {
     gap: 2rem;
     padding-left: 3rem;
   }
+  /* line 100, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
   .prueba {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
+@media (max-width: 768px) {
+  /* line 106, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
+  .grid__paletas {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+}
+
+/* line 113, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .grid__paletas {
   display: grid;
   justify-content: center;
@@ -115,15 +146,7 @@ body {
   padding-left: 3rem;
 }
 
-@media (max-width: 768px) {
-  .grid__paletas {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 2rem;
-  }
-}
-
+/* line 122, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .ImagenFondo {
   background-image: url(../assets/imagenes/ladrillo.jpg);
   background-repeat: no-repeat;
@@ -132,36 +155,46 @@ body {
   /*position: fixed;*/
 }
 
+/* line 129, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 #Ingeniero {
   font-weight: bold;
   font-style: italic;
   background-color: #0003;
 }
 
+/* line 134, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .pad {
   margin: 2rem;
 }
 
+/* line 138, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .uno, .dos, .tres, .cuatro, .cinco {
   transition: all 200ms ease-in-out;
 }
 
+/* line 141, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .scale:hover {
   transform: scale(1.1);
 }
 
+/* line 144, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .pelota {
   text-align: center;
   top: 0;
   animation-name: sube;
   animation-iteration-count: 4;
   animation-timing-function: ease-in-out;
+  margin-top: 2rem;
 }
 
+/* line 152, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .form {
   padding: 3rem;
 }
 
+/* line 155, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .caru {
   padding: 5rem;
 }
+
+/*# sourceMappingURL=estilos.css.map */

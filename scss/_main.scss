@@ -63,6 +63,8 @@ body{
 .paletas{
 	width: 15rem;
 	height:15rem;
+	margin: 2rem;
+	padding: 1rem;
 
 }
 .mapa{
@@ -98,10 +100,7 @@ body{
 	.prueba{
 		display: grid;
 		grid-template-columns: repeat(1,1fr);
-	}
-	
-}
-
+	}	
 }
 @media (max-width: $mqValor){
 	.grid__paletas{
@@ -119,7 +118,7 @@ body{
 	gap: 5rem;
 	margin:3rem;
 	padding-left:3rem;
-	
+}	
 .ImagenFondo{
 	background-image: url(../assets/imagenes/ladrillo.jpg);
 	background-repeat: no-repeat;
@@ -148,12 +147,15 @@ body{
 	animation-name: sube;
 	animation-iteration-count: 4;
 	animation-timing-function: ease-in-out;
-
+	margin-top:2rem;
 }
 .form{
-	padding: 	3rem;
+	padding:3rem;
 }
 .caru{
 	padding:5rem;
 }
+
+
+
 
