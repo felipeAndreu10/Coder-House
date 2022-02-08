@@ -78,28 +78,29 @@ body {
 .paletas {
   width: 15rem;
   height: 15rem;
-  margin: 2rem;
+  margin: 1rem;
   padding: 1rem;
+  object-fit: cover;
 }
 
-/* line 70, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
+/* line 71, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .mapa {
   width: 100%;
 }
 
-/* line 73, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
+/* line 74, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .ubi {
   text-align: center;
   font-style: italic;
   font-weight: bold;
 }
 
-/* line 78, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
+/* line 79, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .central {
   text-align: center;
 }
 
-/* line 82, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
+/* line 83, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .grid {
   display: grid;
   text-align: center;
@@ -110,7 +111,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  /* line 92, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
+  /* line 93, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
   .grid {
     display: grid;
     justify-content: center;
@@ -118,7 +119,7 @@ body {
     gap: 2rem;
     padding-left: 3rem;
   }
-  /* line 100, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
+  /* line 101, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
   .prueba {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -126,7 +127,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  /* line 106, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
+  /* line 107, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
   .grid__paletas {
     display: grid;
     justify-content: center;
@@ -135,7 +136,7 @@ body {
   }
 }
 
-/* line 113, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
+/* line 114, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .grid__paletas {
   display: grid;
   justify-content: center;
@@ -146,7 +147,7 @@ body {
   padding-left: 3rem;
 }
 
-/* line 122, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
+/* line 123, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .ImagenFondo {
   background-image: url(../assets/imagenes/ladrillo.jpg);
   background-repeat: no-repeat;
@@ -155,29 +156,29 @@ body {
   /*position: fixed;*/
 }
 
-/* line 129, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
+/* line 130, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 #Ingeniero {
   font-weight: bold;
   font-style: italic;
   background-color: #0003;
 }
 
-/* line 134, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
+/* line 135, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .pad {
   margin: 2rem;
 }
 
-/* line 138, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
+/* line 139, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .uno, .dos, .tres, .cuatro, .cinco {
   transition: all 200ms ease-in-out;
 }
 
-/* line 141, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
+/* line 142, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .scale:hover {
   transform: scale(1.1);
 }
 
-/* line 144, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
+/* line 145, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .pelota {
   text-align: center;
   top: 0;
@@ -187,12 +188,12 @@ body {
   margin-top: 2rem;
 }
 
-/* line 152, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
+/* line 153, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .form {
   padding: 3rem;
 }
 
-/* line 155, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
+/* line 156, ../../../../../Desktop/CODER HOUSE/git-Andreu/scss/_main.scss */
 .caru {
   padding: 5rem;
 }
